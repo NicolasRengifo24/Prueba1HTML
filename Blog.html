@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NicolasRengifo">
+    <meta name="descrption" content="Mi Blog">
+    <meta name="keywords" content="programacion,codigo,web">
     <title>Mi Blog</title>
 </head>
-<body>
+<body style="font-family: cursive;">
     
     <header>
-        <h1>Informacion Personal</h1>
-        <h2>Nicolas Rengifo Mendez</h2>
-        <h3>IG:Rengifo1602</h3>
+        <h1 style="color: aqua;text-align: center;">Blog</h1>
+        <h2 style="font-family: cursive;">Nicolas Rengifo Mendez</h2>
+        <h3 style="color: rgb(13, 82, 59);">IG:Rengifo1602</h3>
     </header>
     
     <section> 
     <!-- PASATIEMPOS  -->
-    <fieldset>
-            <legend>Pasatiempos</legend> 
+    <fieldset id="Pas" style="border: 5px solid blueviolet;">
+            <legend style="color: brown;">Pasatiempos</legend> 
         
             
-                <table border="5">
-                <caption>Pasatiempos</caption>
+                <table style="color: rgb(226, 101, 43) ;margin:auto;" border="5">
+                <caption style="color: rgb(99, 63, 228);">Pasatiempos</caption>
             
             <tr>
                <td>Boxeo</td>
@@ -40,12 +43,12 @@
         
         
     <!-- COMIDAS FAVORITAS -->
-    <fieldset>
-        <legend>Comidas Favoritas</legend>
+    <fieldset id="com" style="border: 3px solid blueviolet;">
+        <legend style="color: brown;">Comidas Favoritas</legend>
         <article>
             
-            <table border="5">
-                <caption>comidas</caption>
+            <table style="color: rgb(255, 0, 0);margin: auto;" border="5">
+                <caption style="color: rgb(99, 63, 228);">comidas</caption>
             
             <tr>
                <td>Frijoles</td>
@@ -65,11 +68,12 @@
 
 
         <!-- Destinos visitados -->
-    <fieldset>
+    <fieldset id="des" style="border: 3px solid blueviolet;">
+        <legend style="color: brown;">Destino Visitados</legend>
         <article>
             
-            <table border="5">
-                <caption>DESTINOS VISITADOS</caption>
+            <table style="color: rgb(12, 0, 0);margin: auto;" border="5">
+            <caption style="color: rgb(99, 63, 228);">DESTINOS VISITADOS</caption>
             
             <tr>
                 <td><a href="https://www.ciencuadras.com/blog/guia-de-ciudades-neiva"target="_blank">Neiva</a></td>
@@ -88,12 +92,13 @@
         
     </fieldset> 
         <!-- PAISES QUE ME GUSTARIA VISITAR -->
-         <fieldset>
-            <legend>paises</legend>
-             <article>
-            
-                <table border="5">
-                <caption>PAISES QUE ME GUSTARIA VISITAR</caption>
+         <fieldset id="pais" style="border: 3px solid blueviolet;">
+            <legend style="color: brown;">paises</legend>
+            <article>
+           
+                
+                <table style="margin: 0 auto;" border="5">
+                <caption style="color: rgb(99, 63, 228);">PAISES QUE ME GUSTARIA VISITAR</caption>
             
             <tr>
                 <td><a href="https://www.vogue.mx/estilo-de-vida/articulo/ciudad-de-mexico-mejores-ciudades-del-mundo-lista"target="_blank">Mexico</a></td>
@@ -112,9 +117,17 @@
         </fieldset>
     </section>
     <footer>
-    <h3>Rengifo1602 <br>
-        derechos reservados
+    <h3 style="border: 2px solid rgb(222, 204, 236);">
+        <a href="#Pas">Pasatiempos</a> <br>
+        <a href="#com">comidas</a> <br>
+        <a href="#des">destinos visitados</a> <br>
+        <a href="#pais">paises</a> <br>  
+        <a href=" mailto:nicolaseggo@gmail.com">Contacto</a> <br>
     </h3>
+    <div style="color: aliceblue;text-align: center;background-color: black;">
+        derechos reservados
+    </div>
+    
     </footer>
 
 

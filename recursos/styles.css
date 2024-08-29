@@ -1,0 +1,22 @@
+p{
+    color: aqua; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: blueviolet; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#intro {
+    color: black;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.tipos {
+    color: blue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

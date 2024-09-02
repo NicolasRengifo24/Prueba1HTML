@@ -1,0 +1,66 @@
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 17, 17);
+    padding: 2px;
+}
+
+
+.logo a{
+color: #f36e22;/* color del texto que dice logo*/
+text-decoration: none; /*subrayado del vinculo*/
+font-size: 24px;
+}
+
+.nav-links{
+list-style: none;
+display:flex ;
+gap: 15px;
+}
+
+.nav-links li a{
+    color: rgb(240, 5, 5);
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content a{
+    padding:12px 16px ;
+    text-decoration: none;
+    display: block;
+    box-shadow:8px 8px 16px #f36e22;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 120px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.nav-links li a:hover{
+    background-color: red;
+    border-radius: 4px;
+}
+
+.navbar input{
+    color: rgb(240, 5, 5);
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.logo img{
+    border-radius: 20px;
+    width: 50px;
+   height: 50px;
+}
